@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        card_view:cardMaxElevation="0dp"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="0dp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp">
+
+
+            <TextView
+                android:id="@+id/newMemberName"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/newMemberDesignation"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newMemberName"
+                android:text="Designation"
+                android:paddingTop="5dp"
+                android:textSize="12dp" />
+
+
+            <ImageView
+                android:id="@+id/recordingMic"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/stopMic"
+                android:src="@drawable/ic_mic" />
+
+            <ImageView
+                android:id="@+id/stopMic"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/playRecording"
+                android:src="@drawable/ic_stop" />
+
+            <ImageView
+                android:id="@+id/playRecording"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_play" />
+
+            <!--    <ImageView
+                android:id="@+id/deleteMember"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/playRecording"
+                android:src="@drawable/ic_delete" />
+            -->
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ScrumMaster</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrum_create">ScrumCreate</string>
+    <string name="scrum_name">Scrum Name</string>
+    <string name="scrum_date">Scrum Date</string>
+    <string name="title_activity_add_people">AddPeople</string>
+    <string name="title_activity_scrum_detail">ScrumDetail</string>
+    <string name="title_activity_scrum_detail_layout">scrum_detail_layout</string>
+
+    <string-array name="team_name">
+        <item>HMS Team</item>
+        <item>DevOps Team</item>
+        <item>Pricing Team</item>
+        <item>Consumer App Team</item>
+        <item>Central Ops Team</item>
+        <item>Web Team</item>
+    </string-array>
+
+    <string-array name="designations">
+        <item>Software Developer</item>
+        <item>Software Engineer</item>
+        <item>Intern</item>
+        <item>Team Leader</item>
+    </string-array>
+
+</resources>
